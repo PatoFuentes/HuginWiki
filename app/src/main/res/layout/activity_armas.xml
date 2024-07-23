@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/hugin_wallpaper_2"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B9FFFFFF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/armasTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:text="Armas"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- Hachas Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Hachas"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A una mano: Hacha de piedra, Hacha de sílex, Hacha de bronce, Hacha de hierro, Hacha de piedra negra, Jotun Bane"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A dos manos: Hacha de batalla, Hacha de batalla de cristal"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doble empuñadura: Hacha de Berserker (Hachas de Berserker que sangran, Hachas de Berserker de trueno, Hachas de Berserker primales)"
+                    android:textColor="@color/black" />
+
+                <!-- Mazas Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Mazas"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A una mano: Antorcha, Mazo de sílex, Mazo de cobre, Mazo de hierro, Frostner, Puercoespín, Mazo de piedra negra (Bloodgoden, Storm Star, Klossen)"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A dos manos: Stagbreaker, Mazo de hielo de hierro, Demolisher"
+                    android:textColor="@color/black" />
+
+                <!-- Espadas Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Espadas"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A una mano: Espada de sílex, Espada de bronce, Espada de hierro, Espada de plata, Espada de piedra negra, Mistwalker, Nidhög (Nidhög el Sangriento, Nidhög el Trueno, Nidhög el Primal), Dyrwyn"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A dos manos: Krom (Asesino Brutal, Asesino Desollador, Asesino Primal)"
+                    android:textColor="@color/black" />
+
+                <!-- Lanzas Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Lanzas"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lanza de sílex, Lanza de bronce, Lanza antigua de corteza, Lanza de colmillo, Lanza de caparazón, Lanza de piedra negra (Splintr el Sangriento, Splintr la Tormenta, Splintr el Primal)"
+                    android:textColor="@color/black" />
+
+                <!-- Armas de asta Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Armas de asta"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lanza de bronce, Lanza de hierro, Lanza de piedra negra, Himminfall"
+                    android:textColor="@color/black" />
+
+                <!-- Cuchillos Section -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Cuchillos"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A una mano: Cuchillo de sílex, Cuchillo de cobre, Cuchillo abisal, Cuchillo de plata, Cuchillo de piedra negra"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Doble empuñadura: Skoll y Hati"
+                    android:textColor="@color/black" />
+
+                <!-- Puños Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Puños"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nudillos desnudos, Flesh Rippers"
+                    android:textColor="@color/black" />
+
+                <!-- Arcos Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Arcos"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arcos: Arco crudo, Arco de madera fina, Arco de cazador, Arco Draugr, Arco de colmillo de Ash, Arco de colmillo de sangre, Arco de tormenta, Arco de colmillo de raíz"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flechas: Flecha de madera, Flecha de fuego, Flecha de sílex, Flecha de bronce, Flecha de hierro, Flecha de plata, Flecha de obsidiana, Flecha de veneno, Flecha de escarcha, Flecha de aguja, Flecha de caparazón, Flecha de carbón"
+                    android:textColor="@color/black" />
+
+                <!-- Ballestas Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Ballestas"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ballestas: Ballesta, Ripper (Ripper de madera, Ripper de tormenta, Ripper de raíz)"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pernos: Perno de hueso, Perno de hierro, Perno de piedra negra, Perno de caparazón, Perno de carbón"
+                    android:textColor="@color/black" />
+
+                <!-- Magia Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Magia"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Magia elemental: Bastón de escarcha, Bastón de brasas, Bastón de fractura, Bastón de durand, Bastón del viento"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Magia de sangre: Bastón de protección, Levantador de muertos, Trollstav"
+                    android:textColor="@color/black" />
+
+                <!-- Escudos Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Escudos"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Redondo: Escudo de madera, Escudo de banda, Escudo de plata, Escudo de piedra negra, Escudo de caparazón, Escudo de llamas"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Torre: Escudo de torre de madera, Escudo de torre de piedra negra, Escudo de torre de serpiente, Escudo de torre de caparazón, Escudo de torre de llamas"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Broqueles: Broquel de bronce, Broquel de hierro, Broquel de piedra negra"
+                    android:textColor="@color/black" />
+
+                <!-- Otros Section -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Otros"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Picos: Pico de hueso, Pico de piedra negra, Pico de cobre, Pico de hierro, Pico de hielo de piedra negra"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bombas: Bomba de moco, Bomba de bilis, Bomba de humo"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Defensa de base: Ballista (Misil de piedra negra, Misil de metal negro, Misil de fuego), Trampa"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Misceláneo: Cuchillo de carnicero, Arpón abisal"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/backButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:text="Volver" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

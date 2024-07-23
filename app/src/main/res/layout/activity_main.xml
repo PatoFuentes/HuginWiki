@@ -11,14 +11,20 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <ImageView
-            app:srcCompat="@drawable/hugin_wallpaper_2"
-            android:scaleType="centerCrop"
+            android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/hugin_wallpaper_2"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="0dp" />
+
         <LinearLayout
-            android:layout_width="411dp"
-            android:layout_height="79dp"
+            android:id="@+id/linearLayout"
+            android:layout_width="412dp"
+            android:layout_height="119dp"
             android:orientation="vertical"
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="0dp">
@@ -35,18 +41,20 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@android:mipmap/sym_def_app_icon" />
+                android:layout_width="wrap_content"
+                android:layout_height="84dp"
+                app:srcCompat="@drawable/icon_hugin2" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="409dp"
-            android:layout_height="360dp"
+            android:layout_width="382dp"
+            android:layout_height="390dp"
             android:orientation="vertical"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="371dp">
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <Button
                 android:id="@+id/buttonP"
@@ -89,6 +97,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Ashland" />
+
+            <Button
+                android:id="@+id/armasButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Armas" />
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
